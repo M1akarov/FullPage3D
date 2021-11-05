@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="trello.css">
+  <title>Full Page 3D</title>
+</head>
+<body>
+
+  <div class="container">
+    <nav class="navbar">
+      <div class="menu">
+        <h3 class="logo">Company<span>November</span></h3>
+        <div class="loading-text">0%</div>
+        <div class="burger">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </nav>
+
+<!-- Screen -->
+    <div class="screen" id="Home" data-link="Home">
+        <div class="main">
+          <header class="header__one">
+            <div class="header">
+              <div class="header__item">
+                <button class="btn">change mode</button>
+                <div class="app">
+                  <div class="boards">
+                    <div class="boards__item">
+                      <span contenteditable="true" class="title">Введите название</span>
+                      <div class="list">
+                        <div class="list__item" draggable="true"> Вы можете добавить доску и карточку , дать им название, переместить карточку в другую доску или удалить двумя кликами, также удалить ВСЁ кнопкой DEL </div>
+                      </div>
+
+                      <div class="form">
+                        <textarea class="textarea" placeholder="Введите название для этой карточки"></textarea>
+
+                        <div class="buttons">
+                          <button class="add__item-btn">Добавить карточку</button>
+                          <button class="cancel__item-btn">Отмена</button>
+                        </div>
+                      </div>
+
+                      <div class="add__btn"> <span> + </span> Добавить карточку </div>
+
+                    </div>
+                  </div>
+
+                  <div class="button">Добавить доску</div>
+
+                </div>
+
+
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </div>
+
+    <div class="screen" id="Services">
+        <div class="main">
+          <header class="header__two">
+            <div class="header">
+              <div class="header__item">
+                <h2 class="title">Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi necessitatibus quod iusto, alias atque!</p>
+                <button class="btn">Read more</button>
+              </div>
+
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </div>
+
+    <div class="screen" id="Portfolio">
+        <div class="main">
+          <header class="header__three">
+            <div class="header">
+              <div class="header__item">
+                <h2 class="title">Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi necessitatibus quod iusto, alias atque!</p>
+                <button class="btn">Read more</button>
+              </div>
+
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </div>
+
+    <div class="screen" id="Testimonials">
+        <div class="main">
+          <header class="header__four">
+            <div class="header">
+              <div class="header__item">
+                <h2 class="title">Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi necessitatibus quod iusto, alias atque!</p>
+                <button class="btn">Read more</button>
+              </div>
+
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </div>
+
+    <div class="screen" id="Contact">
+      <div class="main">
+        <header class="header__six">
+          <div class="header">
+            <div class="header__item">
+              <h2 class="title">Contact</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi necessitatibus quod iusto, alias atque!</p>
+              <button class="btn">Read more</button>
+            </div>
+
+          </div>
+        </header>
+      </div>
+
+      <div class="shadow one"></div>
+      <div class="shadow two"></div>
+  </div>
+
+    <div class="screen" id="About">
+        <div class="main">
+          <header class="header__five">
+            <div class="header">
+              <div class="header__item">
+                <h2 class="title">About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi necessitatibus quod iusto, alias atque!</p>
+                <button class="btn">Read more</button>
+              </div>
+
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </div>
+
+
+
+<!-- Links -->
+    <div class="links">
+      <ul>
+        <li>
+          <a class="link" data-link="Home" href="#" style="--i: .5s">Home</a>
+        </li>
+        <li>
+          <a class="link" data-link="Services" href="#" style="--i: .6s">Services</a>
+        </li>
+        <li>
+          <a class="link" data-link="Portfolio" href="#" style="--i: .7s">Portfolio</a>
+        </li>
+        <li>
+          <a class="link" data-link="Testimonials" href="#" style="--i: .8s">Testimonials</a>
+        </li>
+        <li>
+          <a class="link" data-link="Contact" href="#" style="--i: .9s">Contact</a>
+        </li>
+        <li>
+          <a class="link" data-link="About" href="#" style="--i: 1s">About</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <script src="trello.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
